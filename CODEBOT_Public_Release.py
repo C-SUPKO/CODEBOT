@@ -43,7 +43,7 @@ def showWeather():
     weather_info = response.json()
     if weather_info['cod'] == 200:
         kelvin = 273 
-        temp = int(((weather_info['main']['temp'] - kelvin)*1.8)+32)                                     #converting default kelvin value to Celcius
+        temp = int(((weather_info['main']['temp'] - kelvin)*1.8)+32)                                    
         flt = int(((weather_info['main']['feels_like'] - kelvin)*1.8)+32)
         pressure = weather_info['main']['pressure']
         humidity = weather_info['main']['humidity']
