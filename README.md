@@ -1,5 +1,5 @@
 # CODEBOT
-CSIT FINAL PROJECT, CODEBOT
+CSIT FINAL PROJECT, CODEBOT Learn
 
 CODEBOT is a GUI for the openai api which allows the user to do four main functionalities.
 The Java and Python Troubleshooters are as simple as fixing non working statements provided by the user. 
